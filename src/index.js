@@ -49,7 +49,8 @@ class Newspaper {
     }
 
     static getSrcFromAnchor(img) {
-        return `https://${img.src.slice(img.src.indexOf('s3.amazonaws.com'))}`;
+        const preffix = 'quality(100)/';
+        return `https://${img.src.slice(img.src.indexOf(preffix) + preffix.length)}`;
     }
 
     static createFromLink(anchor) {

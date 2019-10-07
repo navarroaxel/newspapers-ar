@@ -2,7 +2,7 @@
   "name": "Diarios de Argentina",
   "short_name": "Diarios ar",
   "description": "Tapas de diarios argentinos",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "manifest_version": 2,
   "browser_action": {
     "default_popup": "index.html",
